@@ -17,7 +17,3 @@ python -m http.server 4173
 ```
 
 Then visit [http://localhost:4173](http://localhost:4173) and open the app.
-
-## Live deployment
-
-A GitHub Pages workflow (`.github/workflows/deploy.yml`) publishes the static site on every push to `main` (and via manual dispatch). If you're testing from a fork, enable Pages in the repo settings and trigger the workflow to get a live URL for review.
